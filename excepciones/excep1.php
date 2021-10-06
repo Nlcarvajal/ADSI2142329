@@ -24,6 +24,6 @@ catch(Exception $e){
 catch(DivisionByZeroError $ob){
     echo $ob ->getMessage().'Revise la division desde 1';
 }
- 
+  
 echo 'Ultma linea del codigo';
 ?>
