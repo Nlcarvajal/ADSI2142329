@@ -17,9 +17,6 @@ body {
 .decor {
   background: #ffffff;
   background: -webkit-linear-gradient(left, #f806a7 50%, #8dff96 50%);
-  background: -moz-linear-gradient(left, #f806a7 50%, #8dff96 50%);
-  background: -o-linear-gradient(left, #f806a7 50%, #8dff96 50%);
-  background: linear-gradient(left, white 50%, #8dff96 50%);
   background-size: 50px 25%;;
   padding: 2px;
   display: block;
@@ -46,12 +43,12 @@ ul:after {
 }
 
 ul:before,
-ul:after {
+ul:after{
     content: " ";
     display: table;
 }
 
-nav {
+nav{
   position: relative;
   background: #2B2B2B;
   background-image: -webkit-linear-gradient(bottom, #f806a7 7%, #43f3b0 100%);
@@ -76,10 +73,8 @@ ul.primary li:last-child a {
 }
 
 ul.primary li a:hover {
-  
   color: #000;
 }
-
 
 ul.sub {
   position: absolute;
@@ -95,7 +90,7 @@ ul.sub li {
 }
 
 ul.sub li a {
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted whitesmoke;
   border-right: none;
   color: white;
   padding: 15px 30px;
@@ -109,17 +104,14 @@ ul.sub li a:hover {
   color: #000;
   background: #eeeeee;
 }
-
-/* sub display*/
 ul.primary li:hover ul {
   display: block;
   background: #fff;
 }
 
-/* keeps the tab background white */
-ul.primary li:hover a {
-  background: #fff;
-  color: #666;
+ul.primary li:hover a{
+  background: white;
+  color: rgb(0, 0, 0);
   text-shadow: none;
 }
 
