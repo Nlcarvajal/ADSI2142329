@@ -36,3 +36,4 @@ console.log(frac.resta());
 console.log(frac.multi());
 
 console.log(frac.divi());
+
