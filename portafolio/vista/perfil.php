@@ -10,7 +10,7 @@
 </head>
 <body background="../imagenes/fondo1.jpg">
     <center>
-        <div class="div_body">
+        <div class="div_body"> 
             <header>
                 <center>
                     <strong>

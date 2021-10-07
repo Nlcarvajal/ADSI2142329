@@ -96,7 +96,7 @@
     <img src="../imagenes/facebook.png" width="30px"><h3>Nathalie</h3>
     <img src="../imagenes/instagram.png" width="30px"><h3>@2_nathalie_2</h3>
 
-</footer>
+</footer> 
 </html>
 </body>
 </html>
