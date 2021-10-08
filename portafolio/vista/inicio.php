@@ -22,13 +22,15 @@
     </li>
     <li>
       <a href="http://localhost/ADSI2142329/portafolio/vista/perfil.php">SOBRE MI</a>
+      <ul class="sub">
+        <li><a href="">JavaScript</a></li>
+      </ul>  
     </li>
     <li>
       <a href="">Manuales</a>
       <ul class="sub">
-        <li><a href="">Humming Bird</a></li>
-        <li><a href="">Hawk</a></li>
-        <li><a href="">Crow</a></li>
+        <li><a href="http://localhost/ADSI2142329/portafolio/vista/manualu.php">Manual de Usuario</a></li>
+        <li><a href="http://localhost/ADSI2142329/portafolio/vista/manuals.php">Manual del Software</a></li>
       </ul>  
     </li>
     <li>
