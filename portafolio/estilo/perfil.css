@@ -1,3 +1,6 @@
+body{
+background-color:  #ffe5f0;    
+}
 div div.div_article{
     float: right;
     background-color: #2d0749b7;
@@ -49,3 +52,6 @@ footer.footer {
         padding: 10px;
         margin: 10px;
     }
+    
+
+

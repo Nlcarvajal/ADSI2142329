@@ -8,7 +8,6 @@
     <title>portafolio</title>
     <link rel="stylesheet" href="../estilo/perfil.css">
 </head>
-<body background="../imagenes/fondo1.jpg">
     <center>
         <div class="div_body"> 
             <header>
