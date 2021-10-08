@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portafolio</title>
-    <link rel="stylesheet" href="../estilo/perfil.css">
+    <link rel="stylesheet" href="../estilo/perfils.css">
 </head>
     <center>
         <div class="div_body"> 
@@ -25,13 +25,29 @@
                     <p>Bienvenid@<br>
                         <br>
                         Mi nombre es <strong>Nathaly carvajal </strong> <br>
-                        soy analista y desarrolladora egresada del sena <br>
-                        actualmente me encuatro cursando el sexto trimestre de mi tecnologo en 
+                        soy una diseñadora web egresada del sena. <br>
+                        Soy aprendiz del SENA en la carrera de tecnologo en ADSI,
+                        actualmente me encuentro cursando el sexto trimestre de mi tecnologo.<br>
+                        <br>
+                        Realizo cualquier tipo de proyecto web a las medidas especificadas que me de el cliente
+                        con una buena estructuracion y estilo adecuado a sus especificaciones.<br>
+                        <br>
+                        Tengo poca experiencia laboral pero gracias a mis formaciones con el sena 
+                        me puedo desenvolver ante cualquier campo,Teniendo siempre encuenta que puedo adquirir nuevos
+                        conocimientos y aprendizajes.
                     </p>
                 </article>
             </div>
         </div>
     </center>
+    <br>
+    <div class="section1">
+            <section class="github">
+                <center>
+                    <strong><a href="https://github.com/Nlcarvajal/ADSI2142329.git"><h2>Repositorio github</h2></strong>
+                </center>
+            </section>
+        </div>
     <br>
     <center>
         <button>
