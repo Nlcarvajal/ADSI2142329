@@ -9,14 +9,14 @@
 </head>
 <body>
     <header>
-        <img src="../imagenes/Logo.jpeg" id="logo" width="100px"><a href="http://localhost/formacion/DomiciliosRappidin/inicio.php">
+        <img src="../imagenes/Logo.jpeg" id="logo" width="100px"><a href="/ADSI2142329/portafolio/DomiciliosRappidin/inicio.php">
             <h1>DOMICILIOS RAPPIDIN</h1></a>
     </header>
     <br>
     <nav>
-        <li><a id="registra" href="http://localhost/formacion/DomiciliosRappidin/registrate/registrate.php">Registrarme</a></li>
-        <li><a id="mision" href="http://localhost/formacion/DomiciliosRappidin/nosotros/misionvision.php">Nosotros</a></li>
-        <li><a id="ingreso" href="http://localhost/formacion/DomiciliosRappidin/ingreso/ingresar.php">Ingresar</a></li>
+        <li><a id="registra" href="/ADSI2142329/portafolio/DomiciliosRappidin/registrate/registro.php">Registrarme</a></li>
+        <li><a id="mision" href="/ADSI2142329/portafolio/DomiciliosRappidin/nosotros/misionvision.php">Nosotros</a></li>
+        <li><a id="ingreso" href="/ADSI2142329/portafolio/DomiciliosRappidin/ingreso/ingreso.php">Ingresar</a></li>
     </nav>
     <br>
     <div class="info1">
@@ -39,11 +39,11 @@
 <br>
 <br>
 <div class="boton"> 
-    <a href="http://localhost/formacion/DomiciliosRappidin/inicio.php">Regresar</a>
+    <a href="/ADSI2142329/portafolio/DomiciliosRappidin/inicio.php">Regresar</a>
 </div>
 
 <div class="boton1"> 
-    <a href="http://localhost/formacion/DomiciliosRappidin/nosotros/Estan.php">Estandar de calidad</a>
+    <a href="/ADSI2142329/portafolio/DomiciliosRappidin/nosotros/Estan.php">Estandar de calidad</a>
 </div>
 
 </body>

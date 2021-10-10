@@ -4,11 +4,12 @@
     <link rel="icon" href="../imagenes/icono.png" type="image/png"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>portafolio</title>
     <link rel="stylesheet" href="../estilo/perfils.css">
 </head>
     <center>
+<div class="contenedor">
         <div class="div_body"> 
             <header>
                 <center>
@@ -51,7 +52,7 @@
     <br>
     <center>
         <button>
-            <a href="http://localhost/ADSI2142329/portafolio/vista/inicio.php">Regresar</a>
+            <a href="inicio.php">Regresar</a>
         </button>
     </center>
 </body>
@@ -60,4 +61,5 @@
     <img src="../imagenes/facebook.png" width="30px"><h3>Nathalie</h3>
     <img src="../imagenes/instagram.png" width="30px"><h3>@2_nathalie_2</h3>
 </footer>
+</div>
 </html

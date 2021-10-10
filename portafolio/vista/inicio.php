@@ -18,10 +18,10 @@
 <nav>
   <ul class="primary">
     <li>
-      <a href="http://localhost/ADSI2142329/portafolio/vista/inicio.php">INICIO</a>
+      <a href="inicio.php">INICIO</a>
     </li>
     <li>
-      <a href="http://localhost/ADSI2142329/portafolio/vista/perfil.php">SOBRE MI</a>
+      <a href="perfil.php">SOBRE MI</a>
       <ul class="sub">
         <li><a href="">JavaScript</a></li>
       </ul>  
@@ -29,8 +29,8 @@
     <li>
       <a href="">Manuales</a>
       <ul class="sub">
-        <li><a href="http://localhost/ADSI2142329/portafolio/vista/manualu.php">Manual de Usuario</a></li>
-        <li><a href="http://localhost/ADSI2142329/portafolio/vista/manuals.php">Manual del Software</a></li>
+        <li><a href="manualu.php">Manual de Usuario</a></li>
+        <li><a href="manuals.php">Manual del Software</a></li>
       </ul>  
     </li>
     <li>
@@ -45,7 +45,7 @@
                 <center>
                     <strong>
                         <h1>PORTAFOLIO DE DESARROLLADOR</h1>
-                        <a id="mi" href="http://localhost/ADSI2142329/portafolio/vista/perfil.php">Nathaly Carvajal</a>
+                        <a id="mi" href="perfil.php">Nathaly Carvajal</a>
                     </strong>
                 </center>
             </header>
@@ -61,7 +61,7 @@
             de restaurantes que se encuentra en el municipio de Soacha (Cundinamarca) y a sus alrededores, 
             cada uno de ellos tiene su propio menú que se puede ajustar al gusto y  presupuesto 
             del cliente para realizar su pedido y entregar por el medio domiciliario</p>
-            <a href="http://localhost/ADSI2142329/portafolio/DomiciliosRappidin/inicio.php"><img src="../imagenes/DOMI.png"></a>
+            <a href="../DomiciliosRappidin/inicio.php"><img src="../imagenes/DOMI.png"></a>
     </div>
     <br>
     <div class="div_section">

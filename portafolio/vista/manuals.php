@@ -110,7 +110,7 @@
     <br>
     <center>
         <button>
-            <a href="http://localhost/ADSI2142329/portafolio/vista/inicio.php">Regresar</a>
+            <a href="inicio.php">Regresar</a>
         </button>
     </center>
 </body>

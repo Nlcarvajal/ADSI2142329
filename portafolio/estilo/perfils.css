@@ -10,22 +10,24 @@ div div.div_article{
     font-size: 22px;
     padding: 10px;
     border-radius: 30px;
+    box-sizing: border-box;
 } 
 header{
     font-size: 30px;
     font-style: italic;
     text-shadow:-6px 3px 0 #b6a5ac;    
     color:black;
-    
+    box-sizing: border-box;
 }
 img{
     float: "left";
-
     padding:"40px";
+    box-sizing: border-box;
 }
 div.div_section1 {
     display:flex;
     align-items:center;
+    box-sizing: border-box;
 }
     div.section1 {
         background-color: white;
@@ -72,5 +74,19 @@ footer.footer {
         margin: 10px;
     }
     
-
+@media screen and (max-width: 800px) {
+    .div div.div_article{
+        width: 100%;
+    }    
+    .header{
+        width: 100%;
+    } 
+    .img{
+        width: 100%;
+    } 
+    .div.div_section1{
+        width: 100%;
+    }
+}
+      
 

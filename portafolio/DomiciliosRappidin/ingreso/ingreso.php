@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="../imagenes/logo.jpeg" id="logo" width="100px"><a href="http://localhost/formacion/DomiciliosRappidin/inicio.php">
+        <img src="../imagenes/logo.jpeg" id="logo" width="100px"><a href="/ADSI2142329/portafolio//DomiciliosRappidin/inicio.php">
         <h1>DOMICILIOS RAPPIDIN</h1></a>
     </header>
     <form method="POST" action="../controlador/validacion.php">
@@ -26,9 +26,9 @@
         <label for="contraseña"><h3>Contraseña</h3></label>
         <input type="password" name="clave" placeholder="Clave" pattern="[A-Za-z0-9]+.{6,10}" required>
         <br>
-        <ul><a type="reset" id="borrar" href="http://localhost/formacion/DomiciliosRappidin/inicio.php"><p>Cancelar</p></a></ul>
+        <ul><a type="reset" id="borrar" href="/ADSI2142329/portafolio//DomiciliosRappidin/ingreso/ingreso.php"><p>Cancelar</p></a></ul>
         <ul><input type="submit" id="enviar" name="ingreso" value="Iniciar Sesión"></ul>
-        <ul><a href="http://localhost/formacion/DomiciliosRappidin/registrate/registro.php">Registrarse</a></ul>
+        <ul><a href="/ADSI2142329/portafolio/DomiciliosRappidin/registrate/registro.php">Registrarse</a></ul>
     </form>
     </body>
     <br>

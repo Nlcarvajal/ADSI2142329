@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="../imagenes/logo.jpeg" id="logo" width="100px"><a href="http://localhost/formacion/DomiciliosRappidin/inicio.php">
+        <img src="../imagenes/logo.jpeg" id="logo" width="100px"><a href="/ADSI2142329/portafolio/DomiciliosRappidin/inicio.php">
         <h1>DOMICILIOS RAPPIDIN</h1></a>
     </header>
     <form method="post">
@@ -67,9 +67,9 @@
         </div>
         <br>
         <div class="tres">
-            <a type="reset" id="borrar" href="http://localhost/formacion/DomiciliosRappidin/inicio.php"><p>Cancelar</p></a>
+            <a type="reset" id="borrar" href="registro.php"><p>Cancelar</p></a>
             <input type="submit" id="enviar" name="registro" value="Registro">
-            <a id="inicio" href="http://localhost/formacion/DomiciliosRappidin/inicio.php"><p>Inicio</p></a>
+            <a id="inicio" href="/ADSI2142329/portafolio/DomiciliosRappidin/inicio.php"><p>Inicio</p></a>
         </div>
     </form>
     <br>

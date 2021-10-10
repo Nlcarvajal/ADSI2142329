@@ -9,14 +9,14 @@
 </head>
 <body>
     <header>
-        <img src="imagenes/logo.jpeg" id="logo" width="100px"><a href="http://localhost/formacion/DomiciliosRappidin/inicio.php">
+        <img src="imagenes/logo.jpeg" id="logo" width="100px"><a href="inicio.php">
             <h1>DOMICILIOS RAPPIDIN</h1></a>
     </header>
     <br>
     <nav>
-        <li><a id="registra" href="http://localhost/formacion/DomiciliosRappidin/registrate/registro.php">Registrarme</a></li>
-        <li><a id="mision" href="http://localhost/formacion/DomiciliosRappidin/nosotros/misionvision.php">Nosotros</a></li>
-        <li><a id="ingreso" href="http://localhost/formacion/DomiciliosRappidin/ingreso/ingreso.php">Iniciar Sesión</a></li>
+        <li><a id="registra" href="../DomiciliosRappidin/registrate/registro.php">Registrarme</a></li>
+        <li><a id="mision" href="../DomiciliosRappidin/nosotros/misionvision.php">Nosotros</a></li>
+        <li><a id="ingreso" href="../DomiciliosRappidin/ingreso/ingreso.php">Iniciar Sesión</a></li>
     </nav>
     <br>
     <div class="info1">
