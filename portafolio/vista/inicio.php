@@ -21,7 +21,7 @@
       <a href="inicio.php">INICIO</a>
     </li>
     <li>
-      <a href="perfil.php">SOBRE MI</a>
+      <a href="perfil.php">SOBRE MI</a> 
       <ul class="sub">
         <li><a href="">JavaScript</a></li>
       </ul>  
