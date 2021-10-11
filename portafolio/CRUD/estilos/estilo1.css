@@ -1,0 +1,57 @@
+body {
+    background-color: #ffe5f0;
+    font-size: 18px;    
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+table {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 6px;
+    text-align: center;
+}
+table tr#header td {
+    font-size: 24px;
+    padding: 3px;
+}
+td a#editar {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: green;
+    padding: 5px;
+    border: green;
+    border-radius: 20px;
+}
+td a#eliminar {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    padding: 5px;
+    border: red;
+    border-radius: 10px;
+}
+form{
+    background-color:white;
+    border-radius: 35px;
+    padding: 25px;
+    width: 400px;
+    font-size: 20px;
+}
+td input#reset {
+    background-color: rgb(255, 255, 255);
+    color: red;
+    padding: 35px;
+    border: red;
+    font-size: 20px;
+    border-radius: 10px;
+}
+td input#enviar {
+    background-color: rgb(255, 255, 255);
+    color: green;
+    padding: 35px;
+    border: green;
+    font-size: 20px;
+    border-radius: 10px;
+}

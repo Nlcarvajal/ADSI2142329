@@ -12,8 +12,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario de contacto</title>
-    <link rel="stylesheet" href="../estilos/estio.css">
+    <title>formulario de contactos</title>
+    <link rel="stylesheet" href="../estilos/estilo1.css">
 </head>
 <body>
     <center>
@@ -45,7 +45,7 @@
             <form method="POST" action="insertar.php">
             <strong id="form"><h1>CONTACTO</h1>
             <h3>Diligencia el siguiente formulario si quieres adquirir mis servicios </h3></strong>
-            <div class="cols-6 float-start aling-items-center" style="width:750px;height:300px;">
+            <div class="cols-6 float-start aling-items-center" style="width:-70px;height:300px;">
              <table> 
                 <tr>
                 <label class="from-label"><strong>Nombres</strong></label>
