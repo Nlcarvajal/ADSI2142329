@@ -1,23 +1,24 @@
-<?php //Proceso actualizacion de datos del usuario
+<?php
+//Proceso actualizacion de datos del usuario
     //print_r($_POST);
     if (!isset($_POST['oculto'])) {
         //exit();
         header("Location: index.php");
     }
     include '../modelo/conexion.php';
-    $edit_id = $_POST['edit_id'];
-    $edit_nombre = $_POST['edit_nombre'];
-    $edit_correo = $_POST['edit_correo'];
-    $edit_peticion = $_POST['edit_peticion'];
+    $id2 = $_POST['id2'];
+    $nombre = $_POST['nombre'];
+    $correo = $_POST['correo'];
+    $peticion = $_POST['peticion'];
 
-    $sentencia = $bd->prepare("UPDATE contacto SET   nombre             = ?,
-                                                      correo             = ?,
-                                                      peticion         = ?
-                                WHERE id = ?; ");
-    $resultado = $sentencia->execute([$edit_nombre,$edit_correo,$edit_peticion,$edit_id]);
+    $sentencia = $bd->prepare("UPDATE contacto SET  nombre             = ?,
+                                                    correo             = ?,
+                                                    peticion           = ?
+                                                   WHERE id_contacto = ?; ");
+    $resultado = $sentencia->execute([$nombre,$correo,$peticion,$id2]);
     
     if ($resultado === TRUE) {
-        //echo "<strong><h2>Los datos del usuario han sido actualizados exitosamente!!!</h2></strong>";
+        echo "<strong><h2>Los datos del usuario han sido actualizados exitosamente!!!</h2></strong>";
         header("Location: index.php");
     } else {
         echo "<h2>Ups! ocurrio un error al actualizar los datos del usuario</h2>";

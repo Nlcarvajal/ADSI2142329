@@ -7,11 +7,11 @@
 
     $codigo = $_GET['id'];
     include '../modelo/conexion.php';
-    $sentencia = $bd->prepare("DELETE FROM contacto WHERE id = ?; ");
+    $sentencia = $bd->prepare("DELETE FROM contacto WHERE id_contacto = ?; ");
     $resultado = $sentencia->execute([$codigo]);
 
     if ($resultado === TRUE) {
-        //echo "<strong><h2>Los datos del usuario han sido eliminados exitosamente!!!</h2></strong>";
+        echo "<strong><h2>Los datos del usuario han sido eliminados exitosamente!!!</h2></strong>";
         header("Location: index.php");
     } else {
         echo "<h2>Ups! ocurrio un error al eliminar los datos del usuario</h2>";

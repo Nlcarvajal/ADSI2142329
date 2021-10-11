@@ -1,5 +1,4 @@
 <?php
-    $nombreservidor = "localhost";
     $contraseña = '';
     $usuario = 'root';
     $nombre_bd = 'contactoproyecto';
