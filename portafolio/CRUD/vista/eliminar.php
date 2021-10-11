@@ -7,7 +7,7 @@
 
     $codigo = $_GET['id'];
     include '../modelo/conexion.php';
-    $sentencia = $bd->prepare("DELETE FROM usuarios_dr WHERE id = ?; ");
+    $sentencia = $bd->prepare("DELETE FROM contacto WHERE id = ?; ");
     $resultado = $sentencia->execute([$codigo]);
 
     if ($resultado === TRUE) {

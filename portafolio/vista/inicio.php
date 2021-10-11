@@ -34,7 +34,7 @@
       </ul>  
     </li>
     <li>
-      <a href="">CONTACTO</a>  
+      <a href="/ADSI2142329/portafolio/CRUD/vista/">CONTACTO</a>  
     </li>
   </ul>
 </nav>

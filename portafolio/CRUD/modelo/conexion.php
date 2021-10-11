@@ -1,7 +1,8 @@
 <?php
+    $nombreservidor = "localhost";
     $contraseña = '';
     $usuario = 'root';
-    $nombre_bd = 'test';
+    $nombre_bd = 'contactoproyecto';
 
     try {
         $bd = new PDO(

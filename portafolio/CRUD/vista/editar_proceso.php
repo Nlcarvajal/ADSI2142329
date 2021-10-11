@@ -6,30 +6,15 @@
     }
     include '../modelo/conexion.php';
     $edit_id = $_POST['edit_id'];
-    $edit_tipo_documento = $_POST['edit_tipo_documento'];
-    $edit_numero_documento = $_POST['edit_numero_documento'];
     $edit_nombre = $_POST['edit_nombre'];
-    $edit_apellido_1 = $_POST['edit_apellido_1'];
-    $edit_apellido_2 = $_POST['edit_apellido_2'];
-    $edit_comuna = $_POST['edit_comuna'];
-    $edit_telefono = $_POST['edit_telefono'];
-    $edit_direccion = $_POST['edit_direccion'];
     $edit_correo = $_POST['edit_correo'];
-    $edit_contraseña = $_POST['edit_contraseña'];
+    $edit_peticion = $_POST['edit_peticion'];
 
-    $sentencia = $bd->prepare("UPDATE usuarios_dr SET tipo_documento     = ?,
-                                                      numero_documento   = ?,
-                                                      nombre             = ?,
-                                                      apellido_1         = ?,
-                                                      apellido_2         = ?,
-                                                      comuna             = ?,
-                                                      telefono           = ?,
-                                                      direccion          = ?,
+    $sentencia = $bd->prepare("UPDATE contacto SET   nombre             = ?,
                                                       correo             = ?,
-                                                      contraseña         = ?
+                                                      peticion         = ?
                                 WHERE id = ?; ");
-    $resultado = $sentencia->execute([$edit_tipo_documento,$edit_numero_documento,$edit_nombre,$edit_apellido_1,$edit_apellido_2,
-                                    $edit_comuna,$edit_telefono,$edit_direccion,$edit_correo,$edit_contraseña,$edit_id]);
+    $resultado = $sentencia->execute([$edit_nombre,$edit_correo,$edit_peticion,$edit_id]);
     
     if ($resultado === TRUE) {
         //echo "<strong><h2>Los datos del usuario han sido actualizados exitosamente!!!</h2></strong>";
