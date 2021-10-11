@@ -36,7 +36,7 @@ form{
     background-color:white;
     border-radius: 35px;
     padding: 25px;
-    width: 400px;
+    width: 500px;
     font-size: 20px;
 }
 td input#reset {
@@ -55,3 +55,20 @@ td input#enviar {
     font-size: 20px;
     border-radius: 10px;
 }
+button{
+    background-color:white;
+    padding: 20px;
+    border: 5px #2d0749b7;
+    border-radius: 25px;
+    float: left;
+    font-size: 20px;
+    margin: -63px 600px;
+}
+    button a{
+        text-decoration: none;
+        color: black;
+    }
+        button:hover {
+            background-color:#b9a9b0;  
+            border-radius: 15px;
+        }

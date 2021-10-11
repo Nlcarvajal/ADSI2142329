@@ -23,7 +23,7 @@
     <li>
       <a href="perfil.php">SOBRE MI</a>  
       <ul class="sub">
-        <li><a href="">JavaScript</a></li>
+        <li><a href="/ADSI2142329/portafolio/vista/ejercicos.php">JavaScript</a></li>
       </ul>  
     </li>
     <li>

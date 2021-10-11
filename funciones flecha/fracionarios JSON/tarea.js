@@ -1,7 +1,7 @@
 var frac={
     n1:1,
     n2:2,
-    d1:2,
+    d1:2, 
     d2:3,
     suma:function(){
         numeradorS1=this.n1 * this.d2;

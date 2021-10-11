@@ -71,6 +71,11 @@
                 </table>
             </form>
         <!-- fin del insert -->
-    </center>
+    </center>   
 </body>
+<center>
+        <button>
+            <a href="/ADSI2142329/portafolio/vista/inicio.php">Regresar</a>
+        </button>
+    </center>
 </html>
