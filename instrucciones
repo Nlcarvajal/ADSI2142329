@@ -1,0 +1,9 @@
+instrucciones del portafolio
+para aceder a esta pagina web primero se ingresa a la carpeta portafolio.
+para ingresar al inicio de esta pagina se debe de ingresar a la carpeta vista  en el documento  llamado inicio.php  alli se puede encontrar un menu, un apartado donde se puede apreciar  el proyecto que esta en ejecucion, un apartado donde se encuentra los lenguajes de programacion que puedo ejercer o implementar a una pagina wweb y por ultimo  un pie de pagina en el cual se puede  ver mis redes sociales.
+para poder ver el proyecto que esta en ejecucion  le damos un click al logo correspondiente de este proyecto y podras apreciar todo el contenido que este tiene.
+el apartado que esta en el menu que dice sobre mi habla de mis conocimientos adquiridos en el sena y los servicios que puedo ofrecer a los clientes interesados y para finalizar hay un boton donde se puede acceder a mi repositorio github.
+en el menu tambien podemos encontrar algunos ejercicios o ejemplos de javaScript  esos se encuentran como javaScript.
+en el menu  tambien podemos  encontrar  los manuales de  usuario y de software en donde  podemos encontrar la explicacion  de que son y un paso a paso de como estos funcionan.
+y por ultimo  encontramos en el menu el apartado de contacto que este contiene un formulario donde  el cliente puede hacer alguna observacion o  tomar mi servicio. en la parte  superior se puede ver una tabla la cual muestra los  registros diligenciados  y donde se puede eliminar y editar esta informcion.
+para encontrar el CRUD de esta p agina es por la carpeta CRUD y para el index de esta es en la carpeta vista  y el documento se llama index.php.
